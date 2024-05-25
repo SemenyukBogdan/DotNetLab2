@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\bin\Debug\net8.0\lab 2 netcore.exe
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\bin\Debug\net8.0\lab 2 netcore.deps.json
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\bin\Debug\net8.0\lab 2 netcore.runtimeconfig.json
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\bin\Debug\net8.0\lab 2 netcore.dll
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\bin\Debug\net8.0\lab 2 netcore.pdb
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\obj\Debug\net8.0\lab 2 netcore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\obj\Debug\net8.0\lab 2 netcore.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\obj\Debug\net8.0\lab 2 netcore.AssemblyInfo.cs
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\obj\Debug\net8.0\lab 2 netcore.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\obj\Debug\net8.0\lab 2 netcore.dll
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\obj\Debug\net8.0\refint\lab 2 netcore.dll
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\obj\Debug\net8.0\lab 2 netcore.pdb
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\obj\Debug\net8.0\lab 2 netcore.genruntimeconfig.cache
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\obj\Debug\net8.0\ref\lab 2 netcore.dll

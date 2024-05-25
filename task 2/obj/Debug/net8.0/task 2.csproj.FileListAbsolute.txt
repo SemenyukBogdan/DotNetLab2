@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\bin\Debug\net8.0\task 2.exe
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\bin\Debug\net8.0\task 2.deps.json
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\bin\Debug\net8.0\task 2.runtimeconfig.json
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\bin\Debug\net8.0\task 2.dll
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\bin\Debug\net8.0\task 2.pdb
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\obj\Debug\net8.0\task 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\obj\Debug\net8.0\task 2.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\obj\Debug\net8.0\task 2.AssemblyInfo.cs
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\obj\Debug\net8.0\task 2.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\obj\Debug\net8.0\task 2.dll
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\obj\Debug\net8.0\refint\task 2.dll
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\obj\Debug\net8.0\task 2.pdb
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\obj\Debug\net8.0\task 2.genruntimeconfig.cache
+C:\Users\admin\source\repos\lab 2 netcore\lab 2 netcore\obj\Debug\net8.0\ref\task 2.dll
