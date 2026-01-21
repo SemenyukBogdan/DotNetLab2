@@ -1,9 +1,10 @@
-﻿using lab_2_netcore;
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 
-public class ExtendedDictionary<T, U, V> : IEnumerable<ExtendedDictionaryElement<T, U, V>>
+namespace lab_2_netcore
+{
+    public class ExtendedDictionary<T, U, V> : IEnumerable<ExtendedDictionaryElement<T, U, V>> where T : notnull
 {
     private readonly Dictionary<T, ExtendedDictionaryElement<T, U, V>> _dictionary;
 
@@ -30,9 +31,37 @@ public class ExtendedDictionary<T, U, V> : IEnumerable<ExtendedDictionaryElement
 
     public bool ContainsValue(U value1, V value2)
     {
+        var comparer1 = EqualityComparer<U>.Default;
+        var comparer2 = EqualityComparer<V>.Default;
         foreach (var element in _dictionary.Values)
         {
-            if (element.Value1.Equals(value1) && element.Value2.Equals(value2))
+            if (comparer1.Equals(element.Value1, value1) && comparer2.Equals(element.Value2, value2))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public bool ContainsValue1(U value1)
+    {
+        var comparer = EqualityComparer<U>.Default;
+        foreach (var element in _dictionary.Values)
+        {
+            if (comparer.Equals(element.Value1, value1))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public bool ContainsValue2(V value2)
+    {
+        var comparer = EqualityComparer<V>.Default;
+        foreach (var element in _dictionary.Values)
+        {
+            if (comparer.Equals(element.Value2, value2))
             {
                 return true;
             }
@@ -59,8 +88,9 @@ public class ExtendedDictionary<T, U, V> : IEnumerable<ExtendedDictionaryElement
         return _dictionary.Values.GetEnumerator();
     }
 
-    IEnumerator IEnumerable.GetEnumerator()
-    {
-        return GetEnumerator();
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
     }
 }

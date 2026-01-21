@@ -1,8 +1,8 @@
-﻿namespace task_3
-{
-   
+﻿using lab_2_netcore;
 
-class Program
+namespace task_3
+{
+    class Program
     {
         static void Main()
         {
@@ -21,6 +21,14 @@ class Program
 
             // Перевірка наявності елемента за значенням
             Console.WriteLine($"Contains (200, 'value2'): {extendedDictionary.ContainsValue(200, "value2")}");
+
+            // Перевірка наявності елемента за першим значенням
+            Console.WriteLine($"Contains Value1 = 200: {extendedDictionary.ContainsValue1(200)}");
+            Console.WriteLine($"Contains Value1 = 999: {extendedDictionary.ContainsValue1(999)}");
+
+            // Перевірка наявності елемента за другим значенням
+            Console.WriteLine($"Contains Value2 = 'value2': {extendedDictionary.ContainsValue2("value2")}");
+            Console.WriteLine($"Contains Value2 = 'nonexistent': {extendedDictionary.ContainsValue2("nonexistent")}");
 
             // Отримання елемента за ключем
             var element = extendedDictionary["key1"];
